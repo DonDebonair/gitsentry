@@ -1,0 +1,28 @@
+{
+  "name": "Git Sentry",
+  "description": "Watch git repositories for changes to specific paths and get notified on Slack.",
+  "keywords": [
+    "Git",
+    "GitHub",
+    "BitBucket"
+  ],
+  "repository": "https://github.com/DandyDev/gitsentry",
+  "env": {
+    "SENTRY_PATTERNS": {
+      "description": "Regex patterns describing paths in repositories to watch, in JSON format",
+      "required": false
+    },
+    "SLACK_TOKEN": {
+      "description": "Your Slack API token"
+    },
+    "SLACK_CHANNEL": {
+      "description": "Slack channel to post notifications to"
+    },
+    "SLACK_USERNAME": {
+      "description": "Username to post notifications as, defaults to 'GitSentry'"
+    },
+    "SLACK_ICON": {
+      "description": "Icon for Slack bot posting notifications, can be emoji or URL to image, defaults to :warning:"
+    }
+  }
+}
