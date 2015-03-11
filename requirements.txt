@@ -1,0 +1,3 @@
+Flask==0.10.1
+gunicorn==19.2.1
+slacker=0.5.6
