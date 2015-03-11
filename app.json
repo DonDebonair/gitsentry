@@ -19,10 +19,12 @@
       "description": "Slack channel to post notifications to"
     },
     "SLACK_USERNAME": {
-      "description": "Username to post notifications as, defaults to 'GitSentry'"
+      "description": "Username to post notifications as, defaults to 'GitSentry'",
+      "required": false
     },
     "SLACK_ICON": {
-      "description": "Icon for Slack bot posting notifications, can be emoji or URL to image, defaults to :warning:"
+      "description": "Icon for Slack bot posting notifications, can be emoji or URL to image, defaults to :warning:",
+      "required": false
     }
   }
 }
