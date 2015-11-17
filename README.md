@@ -13,9 +13,11 @@ The json should be according to the following pattern:
 {
   "regex_matching_repo_name(s)": [ 
     "regex_for_path1",
-    "regex_for_path2",
-    ...
+    "regex_for_path2"
   ],
-  ...
+  "regex_matching_another_repo_name(s)": [ 
+    "regex_for_path1",
+    "regex_for_path2"
+  ]
 }
 ```
