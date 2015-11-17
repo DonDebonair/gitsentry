@@ -6,3 +6,16 @@ To configure patterns to watch for, edit example.json and set the config in Hero
 ```bash
 $ heroku config:set SENTRY_PATTERNS="$(cat example.json)"
 ```
+
+The json should be according to the following pattern:
+
+```json
+{
+  "regex_matching_repo_name(s)": [ 
+    "regex_for_path1",
+    "regex_for_path2",
+    ...
+  ],
+  ...
+}
+```
